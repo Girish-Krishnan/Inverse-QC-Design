@@ -1,0 +1,7 @@
+torch==2.1.0          # install torch-cu118 / torch-cu121 wheels if you have CUDA
+numpy>=1.23,<1.27
+scipy>=1.11,<1.13
+qiskit==0.45.6        # pulls in qiskit-aer, qiskit-terra, etc.
+qiskit-aer==0.13.3
+matplotlib>=3.8,<3.9
+tqdm>=4.66
